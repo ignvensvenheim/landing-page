@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svenheim Tools Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <div class="header-logo">
+          <img src="./assets/logo.svg" alt="logo" />
+        </div>
+        <div class="header-name"><p>Įrankiai</p></div>
+      </div>
+    </header>
+
+    <!-- Tools Section -->
+    <section id="tools" class="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card tool-card" onclick="openTool('imos')">
+            <div class="feature-icon"><i class="fas fa-tools"></i></div>
+            <div class="feature-content">
+              <h3>IMOS Pagalba | Jira</h3>
+              <p>IMOS/Adifakt pagalba ir atnaujinimai</p>
+            </div>
+          </div>
+          <div class="feature-card tool-card" onclick="openTool('confluence')">
+            <div class="feature-icon"><i class="fas fa-book"></i></div>
+            <div class="feature-content">
+              <h3>IMOS Pagalba | Confluence</h3>
+              <p>IMOS Pagalba dokumentacija ir naudinga info</p>
+            </div>
+          </div>
+          <div
+            class="feature-card tool-card"
+            onclick="openTool('atnaujinimai')"
+          >
+            <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+            <div class="feature-content">
+              <h3>IMOS mėnesiniai atnaujinimai</h3>
+              <p>Aktualiausi pakeitimai ir atnaujinimai</p>
+            </div>
+          </div>
+
+          <div
+            class="feature-card tool-card"
+            onclick="openTool('kodugeneratorius')"
+          >
+            <div class="feature-icon"><i class="fas fa-code"></i></div>
+            <div class="feature-content">
+              <h3>Kodų generatorius</h3>
+              <p>Apdailos kodų generatorius</p>
+            </div>
+          </div>
+          <div class="feature-card tool-card" onclick="openTool('remontas')">
+            <div class="feature-icon"><i class="fas fa-wrench"></i></div>
+            <div class="feature-content">
+              <h3>Remontas | Jira</h3>
+              <p>Gedimų/profilaktikos registravimas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
