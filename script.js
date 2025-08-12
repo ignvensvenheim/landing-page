@@ -6,7 +6,7 @@ function openTool(toolName) {
     confluence: "https://svenheim.atlassian.net/wiki/x/DoD3C",
     atnaujinimai: "https://svenheim.release.directory/atnaujinimai-pakeitimai",
     remontas: "https://remontas.svenheim.lt/",
-    webshop: "https://my.svenheim.no/shop/products/webshop",
+    webshop: "https://my.svenheim.no/",
   };
 
   const url = toolUrls[toolName];
