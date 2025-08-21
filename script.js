@@ -7,6 +7,7 @@ function openTool(toolName) {
     atnaujinimai: "https://svenheim.release.directory/atnaujinimai-pakeitimai",
     remontas: "https://remontas.svenheim.lt/",
     webshop: "https://my.svenheim.no/",
+    testwebshop: "https://my.svenheim.no:8008/shop/products/webshop",
   };
 
   const url = toolUrls[toolName];
