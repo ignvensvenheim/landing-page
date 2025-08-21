@@ -70,10 +70,11 @@ body {
 }
 
 .features-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
   gap: 1rem;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -178,6 +179,7 @@ body {
   .features-grid {
     max-width: 100%;
     padding: 0 0.5rem;
+    grid-template-columns: 1fr;
   }
 
   .feature-card {
