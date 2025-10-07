@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Svenheim Įrankiai</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -13,82 +15,149 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon.png" />
-    <script src="/js/script.js" defer></script>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon.png"
+    />
+
+    <!-- The <script> tag is no longer needed because we are using <a> tags for links. -->
   </head>
-</html>
   <body>
     <!-- Header -->
     <header class="header">
       <div class="header-container">
         <div class="header-logo">
-          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="Svenheim Logo" />
         </div>
         <div class="header-name"><p>Įrankiai</p></div>
       </div>
     </header>
 
-    <!-- Tools Section -->
-    <section id="tools" class="features">
-      <div class="container">
-        <div class="features-grid">
-          <div class="feature-card tool-card" onclick="openTool('imos')">
-            <div class="feature-icon"><i class="fas fa-tools"></i></div>
-            <div class="feature-content">
-              <h3>IMOS Pagalba | Jira</h3>
-              <p>IMOS/Adifakt pagalba ir atnaujinimai</p>
-            </div>
-          </div>
-          <div class="feature-card tool-card" onclick="openTool('confluence')">
-            <div class="feature-icon"><i class="fas fa-book"></i></div>
-            <div class="feature-content">
-              <h3>IMOS Pagalba | Confluence</h3>
-              <p>IMOS Pagalba dokumentacija ir naudinga info</p>
-            </div>
-          </div>
-          <div
-            class="feature-card tool-card"
-            onclick="openTool('atnaujinimai')"
-          >
-            <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
-            <div class="feature-content">
-              <h3>IMOS mėnesiniai atnaujinimai</h3>
-              <p>Aktualiausi pakeitimai ir atnaujinimai</p>
-            </div>
-          </div>
-          <div
-            class="feature-card tool-card"
-            onclick="openTool('kodugeneratorius')"
-          >
-            <div class="feature-icon"><i class="fas fa-code"></i></div>
-            <div class="feature-content">
-              <h3>Kodų generatorius</h3>
-              <p>Apdailos kodų generatorius</p>
-            </div>
-          </div>
-          <div class="feature-card tool-card" onclick="openTool('remontas')">
-            <div class="feature-icon"><i class="fas fa-wrench"></i></div>
-            <div class="feature-content">
-              <h3>Remontas | Jira</h3>
-              <p>Gedimų/profilaktikos registravimas</p>
-            </div>
-          </div>
-          <div class="feature-card tool-card" onclick="openTool('webshop')">
-            <div class="feature-icon"><i class="fas fa-shop"></i></div>
-            <div class="feature-content">
-              <h3>Webshop</h3>
-              <p>Svenheim webshop</p>
-            </div>
-          </div>
-          <div class="feature-card tool-card" onclick="openTool('testwebshop')">
-            <div class="feature-icon"><i class="fas fa-cloud"></i></div>
-            <div class="feature-content">
-              <h3>Test Webshop</h3>
-              <p>Svenheim test webshop</p>
-            </div>
+    <!-- Main Content -->
+    <main>
+      <section id="tools" class="features">
+        <div class="container">
+          <div class="features-grid">
+            <!-- IMOS Pagalba | Jira -->
+            <a
+              href="https://svenheim.atlassian.net/servicedesk/customer/portal/6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon"><i class="fas fa-tools"></i></div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">IMOS Pagalba | Jira</h3>
+                <p class="feature-card__description">
+                  IMOS/Adifakt pagalba ir atnaujinimai
+                </p>
+              </div>
+            </a>
+
+            <!-- IMOS Pagalba | Confluence -->
+            <a
+              href="https://svenheim.atlassian.net/wiki/x/DoD3C"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon"><i class="fas fa-book"></i></div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">IMOS Pagalba | Confluence</h3>
+                <p class="feature-card__description">
+                  IMOS Pagalba dokumentacija ir naudinga info
+                </p>
+              </div>
+            </a>
+
+            <!-- IMOS mėnesiniai atnaujinimai -->
+            <a
+              href="https://svenheim.release.directory/atnaujinimai-pakeitimai"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon">
+                <i class="fas fa-sync-alt"></i>
+              </div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">
+                  IMOS mėnesiniai atnaujinimai
+                </h3>
+                <p class="feature-card__description">
+                  Aktualiausi pakeitimai ir atnaujinimai
+                </p>
+              </div>
+            </a>
+
+            <!-- Kodų generatorius -->
+            <a
+              href="https://my.svenheim.no/CCG/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon"><i class="fas fa-code"></i></div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">Kodų generatorius</h3>
+                <p class="feature-card__description">
+                  Apdailos kodų generatorius
+                </p>
+              </div>
+            </a>
+
+            <!-- Remontas | Jira -->
+            <a
+              href="https://remontas.svenheim.lt/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon">
+                <i class="fas fa-wrench"></i>
+              </div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">Remontas | Jira</h3>
+                <p class="feature-card__description">
+                  Gedimų/profilaktikos registravimas
+                </p>
+              </div>
+            </a>
+
+            <!-- Webshop -->
+            <a
+              href="https://my.svenheim.no/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon"><i class="fas fa-shop"></i></div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">Webshop</h3>
+                <p class="feature-card__description">Svenheim webshop</p>
+              </div>
+            </a>
+
+            <!-- Test Webshop -->
+            <a
+              href="https://my.svenheim.no:8008/shop/products/webshop"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="feature-card"
+            >
+              <div class="feature-card__icon"><i class="fas fa-cloud"></i></div>
+              <div class="feature-card__content">
+                <h3 class="feature-card__title">Test Webshop</h3>
+                <p class="feature-card__description">Svenheim test webshop</p>
+              </div>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
