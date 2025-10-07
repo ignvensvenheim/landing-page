@@ -39,7 +39,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(./assets/bg2.jpg);
+  background-image: url(../assets/bg2.jpg);
   background-size: 500px;
   background-position: center;
   background-repeat: repeat;
