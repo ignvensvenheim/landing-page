@@ -1,0 +1,18 @@
+{
+  "imos-pagalba": "IMOS Pagalba | Jira",
+  "imos-pagalba-desc": "IMOS/Adifakt pagalba ir atnaujinimai",
+  "imos-confluence": "IMOS Pagalba | Confluence",
+  "imos-confluence-desc": "IMOS Pagalba dokumentacija ir naudinga info",
+  "imos-news": "IMOS mėnesiniai atnaujinimai",
+  "imos-news-desc": "Aktualiausi pakeitimai ir atnaujinimai",
+  "code-gen": "Kodų generatorius",
+  "code-gen-desc": "Apdailos kodų generatorius",
+  "mech-jira": "Remontas | Jira",
+  "mech-jira-desc": "Gedimų/profilaktikos registravimas",
+  "mech-jira-filter": "Remontas | Užklausos",
+  "mech-jira-filter-desc": "Užklausų filtravimas ir eksportavimas",
+  "planner": "Microsoft | Planner",
+  "planner-desc": "Internal errors ir t.t.",
+  "it-pagalba": "IT Pagalba",
+  "it-pagalba-desc": "Visa pagalba IT klausimais"
+}

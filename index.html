@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Svenheim Įrankiai</title>
-
-    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -15,16 +13,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-
-    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="./assets/favicon.png"
     />
-
-    <!-- The <script> tag is no longer needed because we are using <a> tags for links. -->
+    <script src="https://unpkg.com/i18next@23.6.0/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.4.1/i18nextHttpBackend.min.js"></script>
+    <script src="./script/script.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -33,7 +30,15 @@
         <div class="header-logo">
           <img src="./assets/logo.svg" alt="Svenheim Logo" />
         </div>
-        <div class="header-name"><p>Įrankiai</p></div>
+        <div class="header-sub-container">
+          <div class="lang-toggle">
+            <button data-lang="en" class="lang-btn active">EN</button>
+            <button data-lang="lt" class="lang-btn">LT</button>
+          </div>
+          <div class="header-name">
+            <p>Įrankiai</p>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -51,10 +56,11 @@
             >
               <div class="feature-card__icon"><i class="fas fa-tools"></i></div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">IMOS Pagalba | Jira</h3>
-                <p class="feature-card__description">
-                  IMOS/Adifakt pagalba ir atnaujinimai
-                </p>
+                <h3 class="feature-card__title" data-i18n="imos-pagalba"></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="imos-pagalba-desc"
+                ></p>
               </div>
             </a>
 
@@ -67,10 +73,14 @@
             >
               <div class="feature-card__icon"><i class="fas fa-book"></i></div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">IMOS Pagalba | Confluence</h3>
-                <p class="feature-card__description">
-                  IMOS Pagalba dokumentacija ir naudinga info
-                </p>
+                <h3
+                  class="feature-card__title"
+                  data-i18n="imos-confluence"
+                ></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="imos-confluence-desc"
+                ></p>
               </div>
             </a>
 
@@ -85,12 +95,11 @@
                 <i class="fas fa-sync-alt"></i>
               </div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">
-                  IMOS mėnesiniai atnaujinimai
-                </h3>
-                <p class="feature-card__description">
-                  Aktualiausi pakeitimai ir atnaujinimai
-                </p>
+                <h3 class="feature-card__title" data-i18n="imos-news"></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="imos-news-desc"
+                ></p>
               </div>
             </a>
 
@@ -103,10 +112,11 @@
             >
               <div class="feature-card__icon"><i class="fas fa-code"></i></div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Kodų generatorius</h3>
-                <p class="feature-card__description">
-                  Apdailos kodų generatorius
-                </p>
+                <h3 class="feature-card__title" data-i18n="code-gen"></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="code-gen-desc"
+                ></p>
               </div>
             </a>
 
@@ -121,10 +131,11 @@
                 <i class="fas fa-wrench"></i>
               </div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Remontas | Jira</h3>
-                <p class="feature-card__description">
-                  Gedimų/profilaktikos registravimas
-                </p>
+                <h3 class="feature-card__title" data-i18n="mech-jira"></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="mech-jira-desc"
+                ></p>
               </div>
             </a>
             <!-- Filtravimas eksportas | Mech Jira -->
@@ -138,10 +149,14 @@
                 <i class="fa-solid fa-file-excel"></i>
               </div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Remontas | Užklausos</h3>
-                <p class="feature-card__description">
-                  Užklausų filtravimas ir eksportavimas
-                </p>
+                <h3
+                  class="feature-card__title"
+                  data-i18n="mech-jira-filter"
+                ></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="mech-jira-filter-desc"
+                ></p>
               </div>
             </a>
             <!-- Planner -->
@@ -155,8 +170,11 @@
                 <i class="fa-brands fa-windows"></i>
               </div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">Microsoft | Planner</h3>
-                <p class="feature-card__description">Internal errors ir t.t.</p>
+                <h3 class="feature-card__title" data-i18n="planner"></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="planner-desc"
+                ></p>
               </div>
             </a>
             <!-- IT pagalba itpagalba@svenheim.lt -->
@@ -170,10 +188,11 @@
                 <i class="fa-solid fa-truck-medical"></i>
               </div>
               <div class="feature-card__content">
-                <h3 class="feature-card__title">IT Pagalba</h3>
-                <p class="feature-card__description">
-                  Visa pagalba IT klausimais
-                </p>
+                <h3 class="feature-card__title" data-i18n="it-pagalba"></h3>
+                <p
+                  class="feature-card__description"
+                  data-i18n="it-pagalba-desc"
+                ></p>
               </div>
             </a>
             <!-- Webshop -->

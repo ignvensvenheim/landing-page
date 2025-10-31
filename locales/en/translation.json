@@ -1,0 +1,18 @@
+{
+  "imos-pagalba": "IMOS Help | Jira",
+  "imos-pagalba-desc": "IMOS/Adifakt help",
+  "imos-confluence": "IMOS Help | Confluence",
+  "imos-confluence-desc": "IMOS documentation and useful info",
+  "imos-news": "IMOS monthly updates",
+  "imos-news-desc": "Newest changes and updates",
+  "code-gen": "Code generator",
+  "code-gen-desc": "Decor code generator",
+  "mech-jira": "Service | Jira",
+  "mech-jira-desc": "Breakdown/maintenance registration",
+  "mech-jira-filter": "Service | Issues",
+  "mech-jira-filter-desc": "Issues filtering & export",
+  "planner": "Microsoft | Planner",
+  "planner-desc": "Internal errors etc.",
+  "it-pagalba": "IT Help",
+  "it-pagalba-desc": "Help for IT related questions"
+}
