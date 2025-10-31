@@ -48,6 +48,7 @@ body {
   align-items: center;
   gap: 0.8rem;
 }
+
 .header-sub-container {
   display: flex;
   flex-direction: row-reverse;
@@ -178,7 +179,6 @@ body {
 
 /* language button */
 
-/* Language Toggle Buttons */
 .lang-toggle {
   display: flex;
   gap: 0.5rem;
