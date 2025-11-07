@@ -211,3 +211,17 @@ body {
   background-color: white;
   box-shadow: 0 4px 10px rgba(62, 79, 92, 0.2);
 }
+
+/*  */
+
+.hidden-google {
+  position: absolute;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid red; */
+
+  &:hover {
+    cursor: auto;
+  }
+}
