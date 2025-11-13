@@ -225,3 +225,15 @@ body {
     cursor: auto;
   }
 }
+
+.hidden-youtube {
+  position: absolute;
+  right: 0;
+  width: 90px;
+  height: 90px;
+  /* border: 1px solid red; */
+
+  &:hover {
+    cursor: auto;
+  }
+}
