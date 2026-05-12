@@ -1,8 +1,10 @@
 {
+  "page-title": "Svenheim Tools",
+  "tools-label": "Tools",
   "imos-pagalba": "IMOS Help | Jira",
-  "imos-pagalba-desc": "IMOS/Adifakt help",
+  "imos-pagalba-desc": "IMOS help",
   "imos-confluence": "IMOS Help | Confluence",
-  "imos-confluence-desc": "IMOS documentation and useful info",
+  "imos-confluence-desc": "Documentation and useful info",
   "imos-news": "IMOS monthly updates",
   "imos-news-desc": "Newest changes and updates",
   "code-gen": "Code generator",
@@ -14,5 +16,11 @@
   "planner": "Microsoft | Planner",
   "planner-desc": "Internal errors etc.",
   "it-pagalba": "IT Help",
-  "it-pagalba-desc": "Help for IT related questions"
+  "it-pagalba-desc": "Help for IT related questions",
+  "webshop": "Webshop",
+  "webshop-desc": "Svenheim webshop",
+  "test-webshop": "Test Webshop",
+  "test-webshop-desc": "Svenheim test webshop",
+  "document-center": "Document Center",
+  "sharepoint-desc": "SharePoint document center"
 }

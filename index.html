@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Svenheim Įrankiai</title>
+    <title>Svenheim Tools</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -24,7 +24,6 @@
     <script src="./script/script.js" defer></script>
   </head>
   <body>
-    <!-- Header -->
     <header class="header">
       <div class="header-container">
         <a
@@ -42,217 +41,22 @@
         </div>
         <div class="header-sub-container">
           <div class="lang-toggle">
-            <button data-lang="en" class="lang-btn active">EN</button>
-            <button data-lang="lt" class="lang-btn">LT</button>
+            <button data-lang="en" class="lang-btn active" type="button">
+              EN
+            </button>
+            <button data-lang="lt" class="lang-btn" type="button">LT</button>
           </div>
           <div class="header-name">
-            <p>Įrankiai</p>
+            <p data-i18n="tools-label"></p>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Main Content -->
     <main>
       <section id="tools" class="features">
         <div class="container">
-          <div class="features-grid">
-            <!-- IMOS Pagalba | Jira -->
-            <a
-              href="https://svenheim.atlassian.net/servicedesk/customer/portal/6"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon"><i class="fas fa-tools"></i></div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title" data-i18n="imos-pagalba"></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="imos-pagalba-desc"
-                ></p>
-              </div>
-            </a>
-
-            <!-- IMOS Pagalba | Confluence -->
-            <a
-              href="https://svenheim.atlassian.net/wiki/x/DoD3C"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon"><i class="fas fa-book"></i></div>
-              <div class="feature-card__content">
-                <h3
-                  class="feature-card__title"
-                  data-i18n="imos-confluence"
-                ></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="imos-confluence-desc"
-                ></p>
-              </div>
-            </a>
-
-            <!-- IMOS mėnesiniai atnaujinimai -->
-            <a
-              href="https://jira-atnaujinimai-pakeitimai.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fas fa-sync-alt"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title" data-i18n="imos-news"></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="imos-news-desc"
-                ></p>
-              </div>
-            </a>
-
-            <!-- Kodų generatorius -->
-            <a
-              href="https://my.svenheim.no/CCG/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon"><i class="fas fa-code"></i></div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title" data-i18n="code-gen"></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="code-gen-desc"
-                ></p>
-              </div>
-            </a>
-
-            <!-- Remontas | Jira -->
-            <a
-              href="https://remontas.svenheim.lt/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fas fa-wrench"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title" data-i18n="mech-jira"></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="mech-jira-desc"
-                ></p>
-              </div>
-            </a>
-            <!-- Filtravimas eksportas | Mech Jira -->
-            <a
-              href="https://mech-jira-next.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fa-solid fa-file-excel"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3
-                  class="feature-card__title"
-                  data-i18n="mech-jira-filter"
-                ></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="mech-jira-filter-desc"
-                ></p>
-              </div>
-            </a>
-            <!-- Planner -->
-            <a
-              href="https://planner.cloud.microsoft/svenheim.lt/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fa-brands fa-windows"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title" data-i18n="planner"></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="planner-desc"
-                ></p>
-              </div>
-            </a>
-            <!-- IT pagalba itpagalba@svenheim.lt -->
-            <a
-              href="https://svenheim.atlassian.net/servicedesk/customer/portal/106"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fa-solid fa-truck-medical"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title" data-i18n="it-pagalba"></h3>
-                <p
-                  class="feature-card__description"
-                  data-i18n="it-pagalba-desc"
-                ></p>
-              </div>
-            </a>
-            <!-- Webshop -->
-            <a
-              href="https://my.svenheim.no/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon"><i class="fas fa-shop"></i></div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title">Webshop</h3>
-                <p class="feature-card__description">Svenheim webshop</p>
-              </div>
-            </a>
-
-            <!-- Test Webshop -->
-            <a
-              href="https://my.svenheim.no:8008/shop/products/webshop"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fa-solid fa-vial"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title">Test Webshop</h3>
-                <p class="feature-card__description">Svenheim test webshop</p>
-              </div>
-            </a>
-
-            <!-- Test Webshop -->
-            <a
-              href="https://svenheimuab.sharepoint.com/sites/SUAB/default.aspx?CID=b005381f%2D8b10%2D44d5%2D87d5%2D7930e28c42e9"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="feature-card"
-            >
-              <div class="feature-card__icon">
-                <i class="fa-solid fa-file-lines"></i>
-              </div>
-              <div class="feature-card__content">
-                <h3 class="feature-card__title">Document Center</h3>
-                <p class="feature-card__description">
-                  SharePoint Document Center
-                </p>
-              </div>
-            </a>
-          </div>
+          <div class="features-grid" id="features-grid"></div>
         </div>
       </section>
     </main>
