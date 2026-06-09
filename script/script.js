@@ -95,7 +95,7 @@ const toolCards = [
 
   {
     column: 3,
-    href: "zund/",
+    href: "http://zund/",
     iconClasses: "fa-solid fa-gears",
     titleKey: "zund",
     descriptionKey: "zund-desc",
