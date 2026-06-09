@@ -1,6 +1,9 @@
 {
   "page-title": "Svenheim Tools",
   "tools-label": "Tools",
+  "column-services": "Services",
+  "column-wiki": "Wiki",
+  "column-links": "Links",
   "imos-pagalba": "IMOS Help | Jira",
   "imos-pagalba-desc": "IMOS help",
   "imos-confluence": "IMOS Help | Confluence",
@@ -19,8 +22,14 @@
   "it-pagalba-desc": "Help for IT related questions",
   "webshop": "Webshop",
   "webshop-desc": "Svenheim webshop",
+  "zund": "Zund",
+  "zund-desc": "Nesting optimizer",
   "test-webshop": "Test Webshop",
   "test-webshop-desc": "Svenheim test webshop",
   "document-center": "Document Center",
-  "sharepoint-desc": "SharePoint document center"
+  "sharepoint-desc": "SharePoint document center",
+  "adifakt-pagalba-desc": "Help with Adifakt system",
+  "adifakt-help": "Adifakt Help",
+  "svenheim-website-desc": "Svenheim official website",
+  "svenheim-website": "Svenheim website"
 }
