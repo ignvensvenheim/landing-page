@@ -1,6 +1,9 @@
 {
   "page-title": "Svenheim Įrankiai",
   "tools-label": "Įrankiai",
+  "column-services": "Paslaugos",
+  "column-wiki": "Wiki",
+  "column-links": "Nuorodos",
   "imos-pagalba": "IMOS Pagalba | Jira",
   "imos-pagalba-desc": "IMOS pagalba ir atnaujinimai",
   "imos-confluence": "IMOS Pagalba | Confluence",
@@ -19,8 +22,14 @@
   "it-pagalba-desc": "Visa pagalba IT klausimais",
   "webshop": "Webshop",
   "webshop-desc": "Svenheim webshop",
+  "zund": "Zund",
+  "zund-desc": "Nesting optimizavimas",
   "test-webshop": "Test Webshop",
   "test-webshop-desc": "Svenheim test webshop",
   "document-center": "Dokumentų Centras",
-  "sharepoint-desc": "SharePoint dokumentai"
+  "sharepoint-desc": "SharePoint dokumentai",
+  "adifakt-pagalba-desc": "Visa pagalba Adifakt klausimais",
+  "adifakt-help": "Adifakt Pagalba",
+  "svenheim-website-desc": "Svenheim oficiali svetainė",
+  "svenheim-website": "Svenheim svetainė"
 }
