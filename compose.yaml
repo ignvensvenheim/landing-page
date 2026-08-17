@@ -1,6 +1,6 @@
 services:
   intranet:
-    build: .
+    build: /opt/intranet
     container_name: intranet
     restart: unless-stopped
 
@@ -9,7 +9,10 @@ services:
       - "443:443"
 
     volumes:
-      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - type: bind
+        source: /etc/letsencrypt
+        target: /etc/letsencrypt
+        read_only: true
 
     extra_hosts:
       - "host.docker.internal:host-gateway"
