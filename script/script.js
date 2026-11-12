@@ -71,7 +71,7 @@ const toolCards = [
   },
   {
     column: 3,
-    href: "https://planner.cloud.microsoft/svenheim.lt/",
+    href: "https://planner.cloud.microsoft",
     iconClasses: "fa-brands fa-windows",
     titleKey: "planner",
     descriptionKey: "planner-desc",
